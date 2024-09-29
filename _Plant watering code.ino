@@ -6,9 +6,9 @@
 #include <String>
 
 //Internet and telegram setup
-const char* ssid = "BELL045";
-const char* password = "71DAA552F4A7";
-String botToken = "7778342109:AAEBPyHMlE0V9oNDs8uv8sDjzBw7RRuP9ZM";
+const char* ssid = "";
+const char* password = "";
+String botToken = "";
 WiFiClientSecure client;
 UniversalTelegramBot bot(botToken, client);
 
